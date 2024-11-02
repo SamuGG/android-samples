@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ActivityMain" >
+
+    <Button android:id="@android:id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download1"
+        android:layout_marginBottom="8dp" />
+
+    <Button android:id="@android:id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download2"
+        android:layout_below="@android:id/button1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+    
+    <FrameLayout android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@android:id/button2"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
