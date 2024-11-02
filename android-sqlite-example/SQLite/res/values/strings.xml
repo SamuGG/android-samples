@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SGG - SQLite Example</string>
+    <string name="str_records">Records</string>
+    <string name="str_actions">Actions</string>
+    <string name="action_new">New</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="str_name">Name</string>
+    <string name="str_qualification">Qualification</string>
+    <string name="hint_name">Enter name</string>
+    <string name="hint_qualification">50</string>
+    <string name="str_record">Record</string>
+    <string name="str_empty_list">The list is empty</string>
+    <string name="msg_confirm_delete">Confirm delete this record?</string>
+    <string name="msg_required_fields">All fields required</string>
+
+</resources>
